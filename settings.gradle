@@ -1,0 +1,3 @@
+rootProject.name = 'java-react-template'
+
+include 'app:api'

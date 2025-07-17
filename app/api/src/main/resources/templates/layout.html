@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="description" content="Resume viewer and editor web application">
+  <title>Resume Editor</title>
+  <script th:if="${@environment.getProperty('spring.devtools.livereload.enabled')}"
+    src="http://localhost:35729/livereload.js"></script>
+</head>
+
+<body>
+  <section layout:fragment="content">
+    <p>Page content goes here</p>
+  </section>
+</body>
+
+</html>              
